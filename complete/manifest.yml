@@ -1,0 +1,8 @@
+---
+instances: 1
+memory: 1G
+applications:
+  - name: gs-batch-processing
+
+    buildpack: java_buildpack_offline
+    path: target/gs-batch-processing-0.1.0.jar
